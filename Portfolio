@@ -1,0 +1,193 @@
+# PORTFOLIO ASSESSMENT
+
+## Endpoint Security Policy Creation for a Financial Institution
+
+**Course:** Computer Networks and Cybersecurity
+**Course Code:** ECA6101
+**Question No:** 28
+**Name:** K. B. Sudarsanam
+**Register No:** 192512219
+
+---
+
+## 1. Introduction
+
+Financial institutions store important customer and transaction data. The computers and laptops used by employees can become a target for malware, unauthorized access, and data theft. Hence, an endpoint security policy is required to protect these devices.
+
+This portfolio documents a basic endpoint security policy created for a financial institution.
+
+---
+
+## 2. Objective
+
+The main objective is to create security rules for endpoint devices and reduce the risk of unauthorized access and cyberattacks.
+
+The policy mainly focuses on:
+
+* Antivirus protection
+* Password and access control
+* MFA
+* Software updates
+* USB control
+* Data protection
+* Security monitoring
+
+---
+
+## 3. Problem Identified
+
+If employee systems are not properly secured, the following problems may occur:
+
+* Malware infection
+* Weak passwords
+* Unauthorized software installation
+* Data leakage through USB devices
+* Unpatched software vulnerabilities
+* Unauthorized access to sensitive data
+
+Therefore, a common security policy is needed for all organizational endpoint devices.
+
+---
+
+## 4. Proposed Endpoint Security Policy
+
+The following rules were prepared:
+
+### 1. Device Registration
+
+All official computers and laptops should be registered and approved by the IT department.
+
+### 2. Authentication
+
+Users should use strong passwords. MFA should be enabled for important systems. Access should be provided based on the user's role.
+
+### 3. Antivirus Protection
+
+Approved antivirus or endpoint protection software should be installed and kept active. Regular scanning should be performed.
+
+### 4. Software Updates
+
+Operating systems and applications should be updated regularly to fix security vulnerabilities.
+
+### 5. USB Control
+
+Unknown or unauthorized USB devices should not be used. Approved devices should be scanned before accessing the system.
+
+### 6. Data Protection
+
+Sensitive financial data should be protected. Important laptops should use encryption, especially portable devices.
+
+### 7. Application Control
+
+Employees should not install unauthorized or pirated software.
+
+### 8. Security Monitoring
+
+Important events such as failed login attempts and malware alerts should be monitored and reported to the security team.
+
+---
+
+## 5. Implementation
+
+For implementing the policy, the following basic steps were followed:
+
+1. Identified the endpoint devices.
+2. Defined basic security requirements.
+3. Enabled endpoint/antivirus protection.
+4. Checked system update settings.
+5. Applied password and access-control rules.
+6. Restricted unauthorized applications and USB usage.
+7. Checked security alerts and logs.
+
+---
+
+## 6. Simple Architecture
+
+```text
+                 Financial Institution
+                         |
+                  Firewall/Network
+                         |
+                Employee Endpoints
+              /         |          \
+          Laptop      Desktop      Mobile
+              \         |          /
+               Endpoint Security
+                      |
+       --------------------------------
+       |        |        |            |
+   Antivirus   MFA     Updates      Logging
+```
+
+---
+
+## 7. Testing
+
+Some basic checks were performed to verify the policy.
+
+| Test                  | Expected Result    | Status |
+| --------------------- | ------------------ | ------ |
+| Antivirus check       | Protection enabled | Passed |
+| System update         | Updates checked    | Passed |
+| Failed login          | Event generated    | Passed |
+| Unauthorized software | Restricted         | Passed |
+| USB control           | Access controlled  | Passed |
+
+---
+
+## 8. Evidence Collected
+
+The following evidence can be maintained in the portfolio:
+
+* Screenshot of endpoint/antivirus protection
+* Screenshot of system update status
+* Screenshot of security settings
+* Screenshot of event or security log
+* Testing results
+
+These files can be organized in the project repository.
+
+---
+
+## 9. GitHub Repository Structure
+
+```text
+Endpoint-Security-Portfolio/
+│
+├── README.md
+├── Policy_Document/
+├── Screenshots/
+├── Testing/
+└── Reflection/
+```
+
+The README contains the project objective, tools used, implementation steps, and outcome.
+
+---
+
+## 10. Result
+
+An endpoint security policy was prepared for a financial institution. The policy covers basic areas such as antivirus protection, authentication, MFA, updates, USB control, application control, and security monitoring.
+
+The testing showed that these controls can help improve the security of endpoint devices.
+
+---
+
+## 11. Learning Reflection
+
+From this activity, I understood that endpoint security is not only about installing antivirus software. Security also depends on user access, regular updates, data protection, and monitoring.
+
+I also understood that financial institutions need stronger security because they handle sensitive customer and transaction information.
+
+---
+
+## 12. Conclusion
+
+This portfolio documented the creation of a basic endpoint security policy for a financial institution. The policy helps protect computers and other endpoint devices from common security threats.
+
+By using proper authentication, antivirus protection, regular updates, USB control, and security monitoring, the organization can reduce endpoint-related security risks.
+
+## References
+
+1. Course materials – ECA6101 Computer Networks and Cybersecurity.
+2. NIST cybersecurity and endpoint security guidance.
