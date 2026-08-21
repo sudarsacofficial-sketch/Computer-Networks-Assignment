@@ -54,22 +54,7 @@ Applied password and access-control rules.
 Restricted unauthorized applications and USB usage.
 Checked security alerts and logs.
 
-Simple Architecture
-                 Financial Institution
-                         |
-                  Firewall/Network
-                         |
-                Employee Endpoints
-              /         |          \
-          Laptop      Desktop      Mobile
-              \         |          /
-               Endpoint Security
-                      |
-       --------------------------------
-       |        |        |            |
-   Antivirus   MFA     Updates      Logging
-
-   Testing
+  Testing
 
 Some basic checks were performed to verify the policy.
 
